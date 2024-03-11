@@ -1,0 +1,136 @@
+@media only screen{
+#margem {
+
+    margin: 0;
+    
+}
+
+#cordiv {
+
+	background: black;
+	min-height: 50px;
+
+}
+
+#corp {
+
+	color: white;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+#teste {
+	display: inline-block;
+    max-width: 100%;
+	flex-basis: 50%;
+    padding: 0 68% 0 2%;
+}
+
+#testedois {
+	display: inline-block;
+	padding: 0 1% 0 0;
+    max-width: 200px;
+	flex-basis: 50%;
+    text-align: right;
+}
+
+#testetres {
+	display: inline-block;
+	
+}
+
+#textoprincipal {
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    right: 36%;
+    top: 85px;
+    color: white;
+}
+
+#textosecundario {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 38%;
+    top: 235px;
+    color: white;
+}
+
+#imagem {
+    max-width: 100%;
+    width: 1550px;
+    height: 400px; 
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+#imagem_e_texto {
+
+    background-image: url("https://pt-static.z-dn.net/files/dc2/a7acafac71bd02b6ef563a1f71b6cb0c.jpg");
+    padding: 150px 0;
+    background-position: center;
+
+}
+
+#flecha {
+    max-width: 100%;
+    position: relative;
+    top: 8px;
+    right: 20px;
+    height: 25px;
+}
+
+#lupa{
+    max-width: 100%;
+    position: relative;
+    filter: invert(100%);
+    height: 20px;
+    top: 3px;
+    right: 10px;
+}
+
+#materia{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    max-width: 100%;
+    
+}
+
+#bandeira_portuga{
+
+    width: 375px;
+    height: 410px;
+    max-width: 100%;
+    max-height: auto;
+    display: inline-block;
+    padding: 20px 0 0 350px;
+}
+
+#portugues_materia{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: chocolate;
+    padding-left: 400px;
+    text-align: line;
+    
+
+}
+
+#tomas_shelby{
+
+    width: 375px;
+    height: 410px;
+    max-height: auto;
+    padding: 20px 0 0 300px;
+    display: inline-block;
+}
+}
